@@ -1,0 +1,3 @@
+.envrc
+*.pyc
+settings/local.py

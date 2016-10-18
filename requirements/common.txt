@@ -1,0 +1,4 @@
+Flask==0.11.1
+git-pylint-commit-hook==2.2.1
+pip==8.1.2
+pylint==1.6.4
