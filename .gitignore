@@ -2,3 +2,5 @@
 *.pyc
 *.db
 settings/local.py
+.cache
+__pycache__

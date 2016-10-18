@@ -1,4 +1,4 @@
-.PHONY: clean lint open run setup_db
+.PHONY: clean lint open run setup_db test
 
 clean:
 	find . -name \*.pyc -delete
@@ -15,3 +15,6 @@ run: clean
 setup_db:
 	sqlite3 /tmp/flaskr.db < flaskr/schema.sql
 	flask initdb
+
+test:
+	pytest
